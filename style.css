@@ -45,7 +45,7 @@ section h2 {
 }
 
 #about {
-    background: url('/src/fondo_1.jpg') no-repeat center center/cover;
+    background: url('imagenes/fondo_1.jpg') no-repeat center center/cover;
     color: #fff;
     position: relative;
     text-align: center;
@@ -71,9 +71,9 @@ section h2 {
     height: auto;
     display: block;
     margin: 0 auto 1rem;
-    width: 300px; /* Puedes ajustar este valor según tus necesidades */
-    height: 400px; /* Mantén esto proporcionado al width */
-    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+    width: 300px; 
+    height: 400px;
+    object-fit: cover; 
 }
 
 
