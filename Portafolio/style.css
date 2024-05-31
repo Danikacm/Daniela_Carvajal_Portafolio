@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+#about {
+    background: url('Imagenes/fondo_1.jpg') no-repeat center center/cover;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+#about .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#projects ul li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 300px; /* Puedes ajustar este valor según tus necesidades */
+    height: 400px; /* Mantén esto proporcionado al width */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#contact {
+    margin-bottom: 2rem;
+}
